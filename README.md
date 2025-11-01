@@ -1,6 +1,7 @@
 # MRI-to-Synthetic CT Brain Scan Translation Using Deep Learning
 
 **Introduction**
+
 In modern clinical workflows, particularly for radiotherapy planning of brain tumors,
 Magnetic Resonance Imaging (MRI) and Computed Tomography (CT) scans serve
 complementary roles. MRI offers superior soft-tissue contrast for accurate tumor
@@ -23,12 +24,14 @@ The primary objective is to identify an optimal configuration that yields superi
 image quality in significantly fewer training epochs than the standard approach.
 
 **Methodology**
+
 A series of experiments were conducted using a paired MRI-CT dataset to identify
 an optimal training configuration for the Pix2Pix framework. Performance was
 evaluated using Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index
 (SSIM), and Mean Absolute Error (MAE).
 
 **Quantitative Results**
+
 The "Two-Phase Fine-Tuning" experiment emerged as the clear
 top performer, achieving the best overall results across all key metrics. This
 optimized model surpassed the strong performance of the fully-trained 81-epoch
@@ -73,6 +76,7 @@ aggressively optimizing to achieve state-of-the-art results that a standard, mon
 training process could not reach.
 
 **Conclusion**
+
 This study successfully developed and validated a novel two-phase training
 methodology that enhances both the performance and efficiency of the Pix2Pix
 framework for MRI-to-sCT translation.
