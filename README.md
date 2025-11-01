@@ -50,6 +50,7 @@ Our best model (E6) was the result of a curriculum-based training strategy:
 ## 4. Dataset & Preprocessing
 
 * **Dataset:** The project used the **SynthRad dataset**, which contains 180 3D paired and aligned brain scans (MRI, CT, and segmentation masks).
+* **Dataset Link:** `https://synthrad2023.grand-challenge.org/`
 * **Preprocessing:**
     1.  **Slicing:** 3D volumes were sliced into 2D images.
     2.  **Masking:** Brain masks were applied to remove the skull and background.
